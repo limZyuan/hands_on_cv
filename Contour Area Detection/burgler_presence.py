@@ -13,7 +13,7 @@ fps = cap.get(cv2.CAP_PROP_FPS)
 
 # Writer
 fourcc = cv2.VideoWriter_fourcc(*'mp4v')
-out = cv2.VideoWriter('output.mp4', fourcc, fps, (frame_width, frame_height))
+out = cv2.VideoWriter('./Contour Area Detection/output.mp4', fourcc, fps, (frame_width, frame_height))
 
 
 while True:
