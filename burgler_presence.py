@@ -46,7 +46,7 @@ while True:
 
         if motion:
             cv2.putText(frame, 'Motion Detected!', (10, 60), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
-            #cv2.imwrite(f'motion_{count}.jpg', frame)
+            # cv2.imwrite(f'motion_{count}.jpg', frame)
             print(f'Motion detected at frame {count}')
 
         cv2.imshow('Burglar Presence Detection', frame)
