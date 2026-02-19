@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread('./hands_on_cv/image1.jpg')
+img = cv2.imread('./Contour Area Detection/image1.jpg')
 
 resizing = cv2.resize(img, (200, 200))
 grey = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)

@@ -1,6 +1,6 @@
 import cv2
 
-cap = cv2.VideoCapture('./hands_on_cv/vid.mp4')
+cap = cv2.VideoCapture('./Contour Area Detection/vid.mp4')
 
 frames = []
 gap = 5
