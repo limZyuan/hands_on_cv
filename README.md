@@ -8,4 +8,5 @@ Great for CCTV footages where there are usually no changes in the environment. T
 Usage of YOLO model through OpenCV for:
 1. Detecting objects
 2. Counting objects
-3. Segmenting objects
+3. Tracking objects based on ID
+4. Segmenting objects
