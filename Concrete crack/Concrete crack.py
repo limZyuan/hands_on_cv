@@ -180,7 +180,7 @@ optimizer = optim.Adam(model.parameters(), lr = 0.00001)
 # ====================================
 # Step 7: Training Loop
 # ====================================
-num_epochs = 100
+num_epochs = 200
 
 for epoch in range(num_epochs):
     model.train()
